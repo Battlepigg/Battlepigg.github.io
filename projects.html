@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90's Website</title>
+    <style>
+        body {
+            background-image: url(images/website-background.jpg);
+        }
+        .main {
+            margin-left: 140px; /* Same width as the sidebar + left position in px */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+        /* h2 {
+            display: inline-block;
+            line-height: 1;
+            color: #0D1B2A;
+            width: 200px;
+        } */
+        .backgroundColor {
+            background-color: #b3e0de;
+        }
+        h1 {
+            text-align: center;
+            color: #E0E1DD;
+            background-color: #0d1b2a;
+        }
+        /* img {
+            max-width: 30%;
+            height: auto;
+        } */
+        .sidenav {
+            width: 130px;
+            position: fixed;
+            z-index: 1;
+            top: 20px;
+            left: 10px;
+            background-color: #0d1b2a;
+            overflow-x: hidden;
+            padding: 8px 0;
+        }
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #E0E1DD;
+            display: block;
+        }
+        .sidenav a:hover {
+            color: #778DA9;
+        }
+        .text {
+            background-color: #b3e0de;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kipp's 90's Website</h1>
+    <div class="sidenav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="interests.html">Interests</a>
+        <a href="family.html">Family</a>
+        <a href="links.html">Links</a>
+    </div>
+    <div class="main">
+        <h2 style="text-align: center;background-color: #0d1b2a; color: #E0E1DD;">Projects</h2>
+        <div>
+            <img src="images/smsremindermap.png" style="float: right; margin-right: 15px; width: 300px ;background-color: #E0E1DD;">
+            <p class="backgroundColor">Before my enrollment at Digital Crafts I had made a quite a few websites that didn't say much more than "Hello world!" but eventually I figured out you could do a little bit more than that. Right now I have a website written in angular being hosted in AWS that i made to send out text reminders for patients scheduled for surgery at a local hospital. I was mostly a front end developer on this project but learning how to build the website as I went and making everything work in the AWS environment taught me a lot. 
+            </p>
+        </div>
+        <h3 style="text-align: center;background-color: #0d1b2a; color: #E0E1DD; margin-right: 320px;">What I'm working on now</h3>
+        <div class="backgroundColor">
+            <img src="images/rpgpygame.png" style="float: right; margin-right: 15px; width: 100x">
+            <p>
+                I also coded a terminal based role-playing game using python. This is the most I've used python for a larger scale project so I learned a lot while coding it and will probably be working on this code for a while to keep improving on the knowledge I gained making the game.
+            </p>
+        </div>
+    </div>
+<body>
+</html>

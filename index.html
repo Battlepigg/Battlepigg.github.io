@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90's Website</title>
+    <style>
+        body {
+            background-image: url(images/website-background.jpg);
+        }
+        .main {
+            margin-left: 140px; /* Same width as the sidebar + left position in px */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+        /* h2 {
+            display: inline-block;
+            line-height: 1;
+            color: #0D1B2A;
+            width: 200px;
+        } */
+        .backgroundColor {
+            background-color: #b3e0de;
+        }
+        h1 {
+            text-align: center;
+            color: #E0E1DD;
+            background-color: #0d1b2a;
+        }
+        /* img {
+            max-width: 30%;
+            height: auto;
+        } */
+        .sidenav {
+            width: 130px;
+            position: fixed;
+            z-index: 1;
+            top: 20px;
+            left: 10px;
+            background-color: #0d1b2a;
+            overflow-x: hidden;
+            padding: 8px 0;
+        }
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #E0E1DD;
+            display: block;
+        }
+        .sidenav a:hover {
+            color: #778DA9;
+        }
+        .text {
+            background-color: #b3e0de;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kipp's 90's Website</h1>
+    <div class="sidenav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="interests.html">Interests</a>
+        <a href="family.html">Family</a>
+        <a href="links.html">Links</a>
+    </div>
+    <div class="main">
+        <h2 style="text-align: center;background-color: #0d1b2a; color: #E0E1DD;">About me</h2>
+        <img src="images/kipp.jpg" style="float: right; margin-right: 15px; width: 500px ;">
+        <div class="backgroundColor">
+            
+            <p>I'm 22 years old from Houston, I've lived in Houston since I was about four years old but have lived all accross the country for the last few years. I graduated from Klein High in Spring Texas and attended college in Utah for a couple years before deciding it wasn't for me and moving to Portland Oregon where I spent most of the covid shutdown just to move back to Houston.</p>
+        </div>
+        <h3 style="text-align: center;background-color: #0d1b2a; color: #E0E1DD; margin-right: 520px;">What I'm working on now</h3>
+        <div class="backgroundColor">
+            <p>Since the covid shutdown I've been teaching myself how to code while working full-time as a waiter and bartender. I started off just working on home servers for things I thought were useful and worked my way up to a Udemy course on Angular. I had taken a few coding classes in high school and college but the course taught me how much I didn't know and made me want to learn more so i fully commit to web development with Digital Craft's full time web development course.</p>
+        </div>
+    </div>
+</body>
+</html>
